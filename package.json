@@ -1,0 +1,25 @@
+{
+  "name": "Stripped",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-autoprefixer": "~0.8.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-devtools": "latest",
+    "grunt-modernizr": "latest",
+    "grunt-newer": "latest",
+    "grunt-responsive-images": "^0.1.4",
+    "grunt-spritesmith": "latest",
+    "grunt-svgstore": "~0.3.3",
+    "grunt-wp-assets": "~0.2.6",
+    "jit-grunt": "^0.9.0",
+    "load-grunt-tasks": "~0.6.0",
+    "grunt-grunticon": "latest"
+  }
+}
