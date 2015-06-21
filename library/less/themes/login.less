@@ -1,0 +1,154 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Login Stylesheet
+
+This stylesheet is loaded (if admin.php is setup in your
+functions file) on the login page. This way you can style
+the login page. It won't affect any other page, admin or front-end.
+
+For more info, check out the codex:
+http://codex.wordpress.org/Creating_Admin_Themes
+
+******************************************************************/
+
+// import mixins
+@import "bootstrap/mixins.less";
+@import "bootstrap/variables.less";
+@import "variables-custom.less";
+
+html {
+
+}
+
+body.login {
+
+}
+
+#login {}
+
+/* the form box */
+
+/*
+This is the Wordpress logo in the admin area.
+You'll have to load your own images and mess
+with the width and height.
+*/
+.login h1 a {
+	/* make sure to replace this!
+	background: url(../images/logo.png) no-repeat center center;
+	background: url(../images/logo.svg) no-repeat center center / 100%;
+	width: 326px;
+	height: 67px;
+	text-indent: -9999px;
+	overflow: hidden;
+	padding-bottom: 15px;
+	display: block;*/
+}
+
+.login form {
+	margin-left: 8px;
+	padding: 26px 24px 46px;
+	font-weight: normal;
+	background: white;
+	// border: 1px solid @brand-secondary;
+	border-radius: 3px;
+	// background: @white;
+	box-shadow: none;
+}
+
+.login form label, .login form .forgetmenot label {
+	font-size: 15px;
+	//color: @grey-dark;
+}
+
+.login form .input {
+	border: 2px solid #bdc3c7;
+	//color: @grey;
+	font-size: 15px;
+	line-height: 1.467;
+	padding: 8px 12px;
+	height: 42px;
+	-webkit-appearance: none;
+	border-radius: 6px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/*
+You'll have to override some of the default styles
+but since we're referencing the id, it should be easy.
+*/
+#wp-submit {
+	margin: 10px 0 0 10px;
+	padding: 6px 8px;
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	color: white;
+	border: 2px solid white;
+	// background: @blue-light;
+	outline: 0;
+	box-shadow: 0 0 2px #888;
+	-webkit-transition: background 0.2s ease-in-out;
+	-ms-transition: background 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out;
+	-transition: background 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out;
+	&:hover {
+		background: @blue;
+	}
+}
+
+/* login button*/
+
+.login #nav, .login #backtoblog {
+	a {
+		//color: @brand-secondary;
+		&:hover {
+			//color: @brand-secondary;
+		}
+	}
+}
+
+.login .message {
+	margin-left: 8px;
+	border: 0;
+	border-radius: 4px;
+	font-size: 18px;
+	//color: @white;
+	//background: @black;
+}
+
+//message yellow
+/*.login .message {
+	margin-left: 8px;
+	border: 1px solid @yellow-dark;
+	border-radius: 4px;
+	font-size: 18px;
+	color: @white;
+	background: @yellow;
+}*/
+
+.login .message {
+	margin-left: 8px;
+	padding-left: 24px;
+	//border: 2px solid @green;
+	border-radius: 4px;
+	font-size: 18px;
+	//color: @white;
+	//background: @green;
+}
+
+.login #login_error {
+	margin-left: 8px;
+	padding-left: 24px;
+	//border: 2px solid @red;
+	border-radius: 4px;
+	font-size: 18px;
+	//color: @white;
+	//background: @red;
+}

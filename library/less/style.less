@@ -1,0 +1,45 @@
+/**
+* This style sheet uses a 7.1 Pattern as described on sass-guidelines.es
+* It uses bootstrap, however you can add/delete bootstrap components per your need
+* All bootsrap components are available in the vendor-folder
+**/
+
+// Utils Styles
+@import 'vendor/bootstrap/variables.less';
+@import 'utils/variables-custom.less';
+@import 'vendor/bootstrap/mixins.less';
+@import 'utils/mixins-custom.less';
+@import "vendor/bootstrap/utilities.less";
+@import "vendor/bootstrap/responsive-utilities.less";
+//add custom utilities here
+
+// Base Styles
+@import 'vendor/bootstrap/normalize.less';
+@import 'vendor/bootstrap/print.less';
+@import 'vendor/bootstrap/scaffolding.less';
+@import 'vendor/bootstrap/type.less';
+//add custom base styles here
+
+// Layout Styles
+@import 'vendor/bootstrap/grid.less';
+@import 'vendor/bootstrap/responsive-utilities.less';
+@import 'vendor/bootstrap/forms.less';
+//add custom layout styles here
+
+// Components Styles
+@import 'vendor/bootstrap/dropdowns.less';
+@import "vendor/bootstrap/forms.less";
+@import "vendor/bootstrap/buttons.less";
+@import "vendor/bootstrap/component-animations.less";
+@import "vendor/bootstrap/navs.less";
+@import "vendor/bootstrap/navbar.less";
+@import "vendor/bootstrap/tooltip.less";
+@import "vendor/bootstrap/carousel.less";
+//add custom components here
+
+// Page Styles
+// add specific page-styles here (frequently used in WordPress)
+
+// Theme Styles
+@import 'themes/theme.less';
+@import 'themes/ie.less';
